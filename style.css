@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+}
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url("naruto.png");
+  height: 32rem;
+}
+
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url("naruto.png");
+  height: 32rem;
+}
+
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url("naruto.png");
+  height: 32rem;
+}
+
+#myCarousel::after {
+  content: "";
+  height: calc(100vh - 39rem);
+  display: block;
+}
+
+footer {
+  height: 2rem;
+}
+
+body::before {
+  content: "";
+  display: block;
+  height: 40px;
+}
